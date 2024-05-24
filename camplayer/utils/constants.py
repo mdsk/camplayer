@@ -47,6 +47,8 @@ class KEYCODE(object):
     KEY_ENTER               = 28
     KEY_KPENTER             = 96
     KEY_SPACE               = 57
+    KEY_KPMINUS             = 74
+    KEY_KPPLUS              = 78
 
     KEY_NUM = {
     # Key = scancode, value = number
