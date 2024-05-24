@@ -247,10 +247,10 @@ def main():
                 # Non numeric key, clear numeric num_array
                 num_array.clear()
 
-                if event.code == KEYCODE.KEY_RIGHT:
+                if event.code == KEYCODE.KEY_RIGHT or event.code == KEYCODE.KEY_KPPLUS or event.code == KEYCODE.KEY_KPENTER:
                     screenmanager.on_action(Action.SWITCH_NEXT)
 
-                elif event.code == KEYCODE.KEY_LEFT:
+                elif event.code == KEYCODE.KEY_LEFT or event.code == KEYCODE.KEY_KPMINUS:
                     screenmanager.on_action(Action.SWITCH_PREV)
 
                 elif event.code == KEYCODE.KEY_UP:
@@ -259,7 +259,7 @@ def main():
                 elif event.code == KEYCODE.KEY_DOWN:
                     screenmanager.on_action(Action.SWITCH_QUALITY_DOWN)
 
-                elif event.code == KEYCODE.KEY_ENTER or event.code == KEYCODE.KEY_KPENTER:
+                elif event.code == KEYCODE.KEY_ENTER:
                     screenmanager.on_action(Action.SWITCH_SINGLE, 0)
 
                 elif event.code == KEYCODE.KEY_ESC or event.code == KEYCODE.KEY_EXIT:
