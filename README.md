@@ -87,13 +87,13 @@ Passwords and usernames are saved as plain text.
 Therefore, please don't use this software if security is critical for you.
 I take no responsibility for leaked footage, leaked credentials, hacked cameras etc., you have been warned!
 
-## Installation
-
-The instruction below assume you are running a recent Raspberry Pi OS Lite build. 
-
-WARNING!
+## WARNING!
 As the OMXPlayer is depreacated and abandoned, the last supported Raspberry PI OS is this one:
 https://downloads.raspberrypi.org/raspios_oldstable_lite_armhf/images/raspios_oldstable_lite_armhf-2023-05-03/
+
+## Installation
+
+The instruction below assume you are running a Raspberry Pi OS "Buster" Lite build.
 
 Add the following lines to '/boot/config.txt':  
 ```
