@@ -89,8 +89,11 @@ I take no responsibility for leaked footage, leaked credentials, hacked cameras 
 
 ## Installation
 
-The instruction below assume you are running a recent Raspberry Pi OS Lite build.  
-If you are interested in a plug & play system with some additional features, check out [https://www.rpi-camplayer.com/](https://www.rpi-camplayer.com/)
+The instruction below assume you are running a recent Raspberry Pi OS Lite build. 
+
+WARNING!
+As the OMXPlayer is depreacated and abandoned, the last supported Raspberry PI OS is this one:
+https://downloads.raspberrypi.org/raspios_oldstable_lite_armhf/images/raspios_oldstable_lite_armhf-2023-05-03/
 
 Add the following lines to '/boot/config.txt':  
 ```
